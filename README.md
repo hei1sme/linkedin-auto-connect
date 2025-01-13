@@ -1,4 +1,6 @@
 # LinkedIn AutoConnect
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-1.0-blue)
 
 **LinkedIn AutoConnect** is a browser extension designed to automate connection requests on LinkedIn. With this extension, users can save time and effort by automatically sending connection requests to people on their LinkedIn search pages or recommendations.
 
