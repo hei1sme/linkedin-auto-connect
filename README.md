@@ -1,5 +1,5 @@
 # LinkedIn AutoConnect
-<img src="https://i.imgur.com/ymAWSqn.png" alt="LinkedIn AutoConnect Logo" width="300">
+<img src="https://i.imgur.com/ymAWSqn.png" alt="LinkedIn AutoConnect Logo" width="200">
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
