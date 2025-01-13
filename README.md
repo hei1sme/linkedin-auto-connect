@@ -38,9 +38,8 @@ Follow these steps to install and use the extension in Developer Mode:
 
 ## How to Use
 
-1. Navigate to your LinkedIn search results or recommendations page.
-2. Click on the LinkedIn AutoConnect extension icon in your browser's toolbar.
-3. Follow the on-screen instructions to start sending automated connection requests.
+1. Navigate to LinkedIn and log in to start using the extension.
+2. Click the switch icon on the LinkedIn AutoConnect and watch it go.
 
 **Note:** Ensure that you use this tool responsibly and comply with LinkedIn's terms of service to avoid any potential account issues.
 
