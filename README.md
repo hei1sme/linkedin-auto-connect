@@ -1,5 +1,5 @@
 # LinkedIn AutoConnect
-![LinkedIn AutoConnect Logo](https://imgur.com/a/D93HG3D)
+![LinkedIn AutoConnect Logo](https://imgur.com/gallery/linkedin-autoconnect-D93HG3D)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
 
