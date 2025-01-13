@@ -1,0 +1,177 @@
+body {
+    width: 300px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell;
+    margin: 0;
+    padding: 20px;
+    background-color: #f3f2ef;
+}
+
+#app {
+    position: fixed;
+    right: -300px; /* Start hidden off-screen */
+    top: 50px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease; /* Smooth transition */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+#app.active {
+    right: 0; /* Slide in */
+}
+
+#toggleButton {
+    position: fixed;
+    right: 10px;
+    top: 50px;
+    z-index: 1001; /* Ensure it's above other elements */
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.popup-container {
+    padding: 20px;
+}
+
+.popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.popup-header h1 {
+    font-size: 18px;
+    color: #191919;
+    margin: 0;
+    font-weight: 600;
+}
+
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+}
+
+.status-indicator.active {
+    background-color: #057642;
+}
+
+.stats-container {
+    background-color: #f3f2ef;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0a66c2;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 4px;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #0a66c2;
+}
+
+input:checked + .slider:before {
+    transform: translateX(22px);
+}
+
+.slider.round {
+    border-radius: 28px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.toggle-label {
+    font-size: 14px;
+    color: #666666;
+    margin-left: 10px;
+}
+
+.network-btn {
+    background-color: #0a66c2;
+    border: none;
+ color: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.network-btn:hover {
+    background-color: #004182;
+}
