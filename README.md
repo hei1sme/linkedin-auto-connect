@@ -44,6 +44,8 @@ Follow these steps to install and use the extension in Developer Mode:
 
 ## Disclaimer
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-1.0-blue)
 This extension is for educational purposes only. Use at your own risk. The author is not responsible for any issues arising from the use of this tool.
 
 ---
