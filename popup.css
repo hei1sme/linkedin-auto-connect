@@ -3,6 +3,7 @@ body {
     width: 300px;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell;
     margin: 0;
+    padding: 20px;
     background-color: #f3f2ef;
 }
 
